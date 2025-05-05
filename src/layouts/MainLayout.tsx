@@ -1,10 +1,10 @@
 import { Outlet } from 'react-router'
-import Navbar from '../components/Navbar'
+import AppNavbar from '../components/navbars/AppNavbar'
 
 export default function MainLayout(){
   return (
     <div>
-      <Navbar/>
+      <AppNavbar/>
       <Outlet />
     </div>
   )
